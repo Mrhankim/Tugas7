@@ -1,0 +1,110 @@
+.img img{
+    /* height: px; */
+    /* height: 60px; */
+    width: 240px;
+    margin-left: 200px;
+}
+body{
+    margin: 10;
+}
+header{
+    display: flex;
+   background-color: rgb(47, 72, 141);
+   padding: 10px 15px;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+& ul{
+    display: flex;
+    color: white;
+    list-style: none;
+    margin-right: 300px;
+
+    & a{
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+        font-family: Arial;
+        font-size: 13px;
+    }
+}
+
+#banner{
+    height: 100vh;
+    width: 100vw;
+    background: url(https://nurulfikri.ac.id/wp-content/uploads/slider/cache/b9cdbba1a0e7c5c45cc35ca06eaebf93/Banner-Web-1-scaled.webp);
+    display: flex;
+    align-items: center;
+
+    /* h2{
+        color: white;
+        background-color: rgb(47, 72, 141);
+        font-weight: bold;
+        width: 350px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p{
+        margin-top: -20px;
+        background-color: rgb(225, 147, 2);
+        width: 300px;
+        color: white;
+        font-size: 14px;
+        font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    } */
+     & .promosi{
+        width: 30%;
+        color: white;
+        margin-left: 140px;
+        & h2{
+            background-color: rgb(47, 72, 141); 
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* text-align: justify; */
+            padding: 2px;
+            margin-bottom: -20px;
+            font-size: 38px;
+        }
+        & p{
+            background-color: rgb(255, 111, 0);
+         font-size: 19px;   
+         font-family: 'Arial';
+
+        }
+     }
+}
+#prodi{
+    background-color: aqua  ;
+    background: url(https://nurulfikri.ac.id/wp-content/uploads/slider/cache/b9cdbba1a0e7c5c45cc35ca06eaebf93/Banner-Web-1-scaled.webp);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: center;
+    margin-top: -260px;
+    & .card{
+        /* max-width: 30%; */
+        border-radius: 5px;
+        background-color: white;
+        padding: 2px 20px;
+        width: 25%;
+        margin: 5px;
+        font-family: Arial;
+        & .btn-mobile{
+            border: 2px solid rgb(51, 115, 253);
+            border-color: rgb(51, 115, 253);
+            color: rgb(51, 115, 253);
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 6px;
+            margin-top: 20px;
+        }
+        h4{
+            font-size: 25px;
+        }
+        p{
+            font-size: 15px;
+            color: gray;
+        }
+    }
+    
+    }
